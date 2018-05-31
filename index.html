@@ -8,36 +8,54 @@
     <script src="js/scripts.js"></script>
     <title>Celebrity Dating</title>
   </head>
-  <body class="container-fluide">
+  <body class="container-fluid">
+    <h1>Celebrity Dating Quiz</h1>
+
     <div class="form-group well background-blue">
-      <label for="favorite-food">Favorite Music:</label>
+      <label for="favorite-food">Favorite Fruit:</label>
       <div class="radio">
         <label>
-          <input type="radio" name="favorite-food" value="0">
+          <input type="radio" name="favorite-fruit" value="0" checked>
           Apples
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="favorite-food" value="1">
+          <input type="radio" name="favorite-fruit" value="1">
           Oranges
         </label>
       </div>
-    </div>
-    <label for="favorite-music">Favorite Music:</label>
-    <div class="radio">
-      <label>
-        <input type="radio" name="favorite-music" value="Pop">
-        Pop
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="favorite-music" value="Country">
-        Country
-      </label>
-    </div>
-  </div>
 
+      <label for="favorite-music">Favorite Music:</label>
+      <div class="radio">
+        <label>
+          <input type="radio" name="favorite-music" value="0" checked>
+          Pop
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="favorite-music" value="1">
+          Country
+        </label>
+      </div>
+      <button id="btn-submit" class="btn btn-dark">Submit!</button>
+    </div>
+    <div id="bruno-mars" class="initial-hide">
+      <h2>Bruno Mars</h2>
+
+    </div>
+    <div id="celeb2" class="initial-hide">
+      <h2>Celeb 2</h2>
+
+    </div>
+    <div id="celeb3" class="initial-hide">
+      <h2>Celeb 3</h2>
+
+    </div>
+    <div id="celeb4" class="initial-hide">
+      <h2>Celeb 4</h2>
+
+    </div>
   </body>
 </html>
